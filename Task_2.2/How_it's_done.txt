@@ -1,9 +1,0 @@
-1. Run VM (Ubuntu Server) (screenshot 1)
-2. I used MobaExterm
-	The first tab is for writing/editing/debugging script in nano editor (screenshot 2)
-	The second tab is for terminal/docker/mysql commands (screenshot 3)
-3. I used official mysql docker image
-	$ docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=123123 -d mysql
-4. Created database(filesDB), table(files) in mysql cli
-5. Script located at /usr/scripts . starts by command
-	$ ./scan.sh <some diretory> (screenshot 4)
